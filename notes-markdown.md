@@ -1,4 +1,6 @@
-##Markdown study notes##
+Markdown study notes
+=========================================
+
 
 ###heading###
 There are 6 level of heading, denotes by the numbers of "#" use before the heading.
@@ -18,3 +20,12 @@ In the [..] is the text display in the hyperlink, in the ".." is the text which 
 
 ###Horizontal line###
 * use many "----",example
+
+---------------------------
+###Change line###
+* force to change line, just type two space after the line then enter.
+* If want to force to make several blank line, use several `<br />`
+
+
+
+
