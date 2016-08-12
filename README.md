@@ -1,4 +1,4 @@
 study-notes
 ===========
 
-Study notes ( R, stata, matlab etc.)
+Study notes for R, STATA, Matlab, Python and Linux(Ubuntu)
