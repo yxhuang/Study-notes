@@ -63,7 +63,9 @@ sudo apt-get autoremove   // 删除依赖包，不再使用的package
 
 sudo apt-get -f install   // 尝试修正安装过程中出现的依赖性关系
 
-sudo apt-get fcitx-...
+sudo apt-get fcitx-googlepinyin //fcitx 下的google拼音（手机移植）
+
+sudo apt-get install fcitx-module-cloudpinyin // 安装fcitx的云拼音模块
 
 
 
