@@ -1,16 +1,16 @@
-###Bluetooth connection
+##Bluetooth connection
     remember device across OS
     enable bluetooth after resume from sleep
 
-### Timezone problem between Windows and Ubuntu
+## Timezone problem between Windows and Ubuntu
 sudo sed -i 's/UTC=no/UTC=yes/' /etc/default/rcS
 
 
-### Thundermail
+## Thundermail
 buntu下：在当前os用户的主目录home下，找到隐藏的 .thunderbird配置文件夹，修改 profiles.ini 文件 的 “Path=rruqn7mg.default” 配置（可能你的不是该值）。建立一个指向 共用profile的软链接，修改值“rruqn7mg.default”为该软链接。 
 　　windows下：添加 thunderbird 启动参数 “-profile=共用的profile文件夹”
 　　
-### GRUB 2 Theme
+## GRUB 2 Theme
 http://tieba.baidu.com/p/4196513782?pn=1
 https://www.gnome-look.org/p/1009533/
 
@@ -21,7 +21,7 @@ https://www.gnome-look.org/p/1009533/
 sudo mkdir -p /boot/grub/themes/mytheme
 复制GRUB2-themes_20151204主题包文件到目录/boot/grub/themes sudo cp -an ~/桌面/GRUB2-themes_20151204/* /boot/grub/themes
 
-###GWwireless network
+## GWwireless network
 https://www.reddit.com/r/gwu/comments/3h831q/linux_and_gwireless/
 Edit: This is copy pasted directly from the email IT sent. It worked for me, can't promise for you. I was using Ubuntu 14.10, if that helps.
 "Enable the wireless service on your device
@@ -32,7 +32,7 @@ Enter the password that corresponds with your e-mail address
 Select Connect"
 
 
-### Startup monitor brighterless + PWM control
+##  Startup monitor brighterless + PWM control
 我的brightness 和actual_brightness 文件并不能写。所以我就要更改它们的权限了。
 chmod 777 /sys/class/backlight/intel_backlight/brightness
 chmod 777 /sys/class/backlight/intel_backlight/actual_brightness
@@ -44,11 +44,14 @@ echo 423  > /sys/class/backlight/intel_backlight/actual_brightness &
 
 
 
-### Run script on wakeup from sleep
+##  Run script on wakeup from sleep
 http://askubuntu.com/questions/226278/run-script-on-wakeup
 
+### remember to authorize access right
+sudo chmod a+x /lib/systemd/system-sleep/pwm
 
-### Text input method
+
+## Text input method
 im-config
 language support
 https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E7.AC.AC.E4.B8.89.E6.96.B9.E6.8B.BC.E9.9F.B3.E8.BE.93.E5.85.A5.E6.B3.95
