@@ -54,15 +54,12 @@ language support
 https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87)#.E7.AC.AC.E4.B8.89.E6.96.B9.E6.8B.BC.E9.9F.B3.E8.BE.93.E5.85.A5.E6.B3.95
 
 
-sudo apt-get fcitx-...
+
 有必要就再删除干净fcitx相关的
-view plain
 sudo apt-get remove fcitx*  
-
-解决依赖
-view plain
-sudo apt-get autoremove  
-
+sudo apt-get autoremove   // 删除依赖包，不再使用的package
+sudo apt-get -f install   // 尝试修正安装过程中出现的依赖性关系
+sudo apt-get fcitx-...
 
 
 
