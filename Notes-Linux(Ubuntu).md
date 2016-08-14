@@ -56,12 +56,15 @@ https://wiki.archlinux.org/index.php/Fcitx_(%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87
 
 
 有必要就再删除干净fcitx相关的
+sudo apt-get remove fcitx
 
 sudo apt-get remove fcitx*  
 
 sudo apt-get autoremove   // 删除依赖包，不再使用的package
 
 sudo apt-get -f install   // 尝试修正安装过程中出现的依赖性关系
+
+sudo apt-get install fcitx-rime // 还是Rime好用，虽然没有云词库
 
 sudo apt-get fcitx-googlepinyin //fcitx 下的google拼音（手机移植）
 
