@@ -32,23 +32,25 @@ Enter the password that corresponds with your e-mail address
 Select Connect"
 
 
-##  Startup monitor brighterless + PWM control
-我的brightness 和actual_brightness 文件并不能写。所以我就要更改它们的权限了。
+## Monitor brighterless + PWM control (both startup and wakeup from sleep)
+
+## 我的brightness 和actual_brightness 文件并不能写。所以我就要更改它们的权限了。
 chmod 777 /sys/class/backlight/intel_backlight/brightness
 chmod 777 /sys/class/backlight/intel_backlight/actual_brightness
 
 sudo gedit /etc/rc.local
+( echo 6440 | sudo intel_reg write 0xC8254 0x65c065c ) &
 echo 423  > /sys/class/backlight/intel_backlight/brightness &
 echo 423  > /sys/class/backlight/intel_backlight/actual_brightness &
-( echo 6440 | sudo intel_reg write 0xC8254 0x65c065c )
 
 
 
-##  Run script on wakeup from sleep
+### Run script on wakeup from sleep
 http://askubuntu.com/questions/226278/run-script-on-wakeup
 
-### remember to authorize access right
 sudo chmod a+x /lib/systemd/system-sleep/pwm
+
+
 
 
 ## Text input method
