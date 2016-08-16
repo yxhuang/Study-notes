@@ -110,7 +110,8 @@ http://calibre-ebook.com/download
 ### Redshift
 http://jonls.dk/redshift/
 
-    sudo apt-get install redshift
+    sudo apt-get install redshift redshift-gtk
+    
     
 
 
