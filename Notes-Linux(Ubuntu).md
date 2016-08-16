@@ -107,6 +107,12 @@ http://calibre-ebook.com/download
 
 ### Conky
 
+### Redshift
+http://jonls.dk/redshift/
+
+    sudo apt-get install redshift
+    
+
 
 
 
