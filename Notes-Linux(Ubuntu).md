@@ -111,6 +111,7 @@ http://calibre-ebook.com/download
 http://jonls.dk/redshift/
 
     sudo apt-get install redshift redshift-gtk
+    gedit ~/.config/redshift.conf
     
     
 
