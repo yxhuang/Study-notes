@@ -3,7 +3,7 @@
     enable bluetooth after resume from sleep
 
 ## Timezone problem between Windows and Ubuntu
-sudo sed -i 's/UTC=no/UTC=yes/' /etc/default/rcS
+http://www.webupd8.org/2014/09/dual-boot-fix-time-differences-between.html
 
 
 ## Thundermail
