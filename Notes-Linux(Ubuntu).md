@@ -110,9 +110,9 @@ http://calibre-ebook.com/download
 ### Redshift
 Website: http://jonls.dk/redshift/
 
--Install: ``` sudo apt-get install redshift redshift-gtk
+- Install: ```sudo apt-get install redshift redshift-gtk```
 
--Config: ``` gedit ~/.config/redshift.conf
+- Config: ```gedit ~/.config/redshift.conf```
     
 
 ### Foxit reader
