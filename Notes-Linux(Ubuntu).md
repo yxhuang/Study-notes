@@ -108,8 +108,10 @@ http://calibre-ebook.com/download
 ### Conky
 
 ### Redshift
-http://jonls.dk/redshift/
+Website: http://jonls.dk/redshift/
+
 -Install: ``` sudo apt-get install redshift redshift-gtk
+
 -Config: ``` gedit ~/.config/redshift.conf
     
 
