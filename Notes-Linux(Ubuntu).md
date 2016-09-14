@@ -113,6 +113,11 @@ http://jonls.dk/redshift/
     sudo apt-get install redshift redshift-gtk
     gedit ~/.config/redshift.conf
     
+
+### Foxit reader
+https://www.foxitsoftware.com/products/pdf-reader/
+
+    
     
 
 
