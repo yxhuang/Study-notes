@@ -16,8 +16,12 @@ https://www.gnome-look.org/p/1009533/
 
 1. download and extract the .tar.gz file.
 2. Copy GRUB2主题包到/boot/grub/themes (root权限，没有themes文件夹旧就新建一个)
-3. update grub: ```sudo update-grub```
-4
+3. Edit /etc/default/grub and add:
+    GRUB_THEME=/boot/grub/themes/Aurora-Penguinis-GRUB2/theme.txt
+  if you want the os selection page to be displayed permenately (without 10s count down) : change ```GRUB_TIMEOUT=10``` to value of ```-1```
+3. update grub: ```sudo update-grub```4. 
+4. Restart your computer
+
 
 
 ## GWwireless network
