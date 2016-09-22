@@ -20,11 +20,11 @@ https://www.gnome-look.org/p/1009533/
 ```
     GRUB_THEME=/boot/grub/themes/Aurora-Penguinis-GRUB2/theme.txt
 ```
-    
-  if you want the os selection page to be displayed permenately (without 10s count down) : change ```GRUB_TIMEOUT=10``` to value of ```-1```
-  
+if you want the os selection page to be displayed permenately (without 10s count down) : change ```GRUB_TIMEOUT=10``` to value of ```-1```
 4. update grub: ```sudo update-grub```
 5. Restart your computer
+
+
 
 
 
