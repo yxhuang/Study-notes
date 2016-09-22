@@ -22,8 +22,9 @@ https://www.gnome-look.org/p/1009533/
 ```
     
   if you want the os selection page to be displayed permenately (without 10s count down) : change ```GRUB_TIMEOUT=10``` to value of ```-1```
-3. update grub: ```sudo update-grub```
-4. Restart your computer
+  
+4. update grub: ```sudo update-grub```
+5. Restart your computer
 
 
 
