@@ -14,14 +14,11 @@ buntu下：在当前os用户的主目录home下，找到隐藏的 .thunderbird�
 http://tieba.baidu.com/p/4196513782?pn=1
 https://www.gnome-look.org/p/1009533/
 
-第一步 : 复制GRUB2主题包到/boot/grub/themes
-因为涉及修改系统文件，用root身份，终端操作设置。
-（Ubuntu开终端, Ctrl + Alt + T)
-第一个命令， 在/boot/grub里创建GRUB2打主题目录themes
+1. download and extract the .tar.gz file.
+2. Copy GRUB2主题包到/boot/grub/themes (root权限，没有themes文件夹旧就新建一个)
+3. update grub: ```sudo update-grub
+4
 
-    sudo mkdir -p /boot/grub/themes/mytheme
-
-复制GRUB2-themes_20151204主题包文件到目录/boot/grub/themes sudo cp -an ~/桌面/GRUB2-themes_20151204/* /boot/grub/themes
 
 ## GWwireless network
 https://www.reddit.com/r/gwu/comments/3h831q/linux_and_gwireless/
