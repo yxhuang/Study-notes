@@ -16,7 +16,7 @@ https://www.gnome-look.org/p/1009533/
 
 1. download and extract the .tar.gz file.
 2. Copy GRUB2主题包到/boot/grub/themes (root权限，没有themes文件夹旧就新建一个)
-3. update grub: ```sudo update-grub
+3. update grub: ```sudo update-grub```
 4
 
 
