@@ -17,9 +17,13 @@ windows下：添加 thunderbird 启动参数 “-profile=共用的profile文件�
 3. 运行出现的窗口就是Thunderbird的设定管理窗口，选择创建配置文件->下一步->输入用户名->同时注意选择文件夹（这时便可设定你希望的邮件存储路径）；
 4. 之后可启动thunderbird，配置你使用的邮箱的邮件账户密码等参数；
 5. 不放心的话，待邮件下载完成后看看你设定的邮件存储位置便明白了。
+
+
 　　
 ## GRUB 2 Theme
+
 http://tieba.baidu.com/p/4196513782?pn=1
+
 https://www.gnome-look.org/p/1009533/
 
 1. download and extract the .tar.gz file.
