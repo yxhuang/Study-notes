@@ -6,9 +6,16 @@
 http://www.webupd8.org/2014/09/dual-boot-fix-time-differences-between.html
 
 
-## Thundermail
+## Thunderbird
 buntu下：在当前os用户的主目录home下，找到隐藏的 .thunderbird配置文件夹，修改 profiles.ini 文件 的 “Path=rruqn7mg.default” 配置（可能你的不是该值）。建立一个指向 共用profile的软链接，修改值“rruqn7mg.default”为该软链接。 
-　　windows下：添加 thunderbird 启动参数 “-profile=共用的profile文件夹”
+windows下：添加 thunderbird 启动参数 “-profile=共用的profile文件夹”
+
+* windows 下修改默认存储路径：
+>* 1. 下载安装完成后，不要立即运行Thunderbird；
+ 2. 在WindowsXP下 运行 ->thunderbird.exe -profilemanager ， Windows7直接在开始菜单的搜索栏输入 thunderbird.exe -profilemanager ；
+3. 运行出现的窗口就是Thunderbird的设定管理窗口，选择创建配置文件->下一步->输入用户名->同时注意选择文件夹（这时便可设定你希望的邮件存储路径）；
+4. 之后可启动thunderbird，配置你使用的邮箱的邮件账户密码等参数；
+5. 不放心的话，待邮件下载完成后看看你设定的邮件存储位置便明白了。
 　　
 ## GRUB 2 Theme
 http://tieba.baidu.com/p/4196513782?pn=1
