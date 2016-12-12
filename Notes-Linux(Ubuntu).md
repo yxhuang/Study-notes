@@ -12,7 +12,7 @@ windows下：添加 thunderbird 启动参数 “-profile=共用的profile文件�
 
 * windows 下修改默认存储路径：
 
->* 1. 下载安装完成后，不要立即运行Thunderbird；
+>1. 下载安装完成后，不要立即运行Thunderbird；
  2. 在WindowsXP下 运行 ->thunderbird.exe -profilemanager ， Windows7直接在开始菜单的搜索栏输入 thunderbird.exe -profilemanager ；
 3. 运行出现的窗口就是Thunderbird的设定管理窗口，选择创建配置文件->下一步->输入用户名->同时注意选择文件夹（这时便可设定你希望的邮件存储路径）；
 4. 之后可启动thunderbird，配置你使用的邮箱的邮件账户密码等参数；
