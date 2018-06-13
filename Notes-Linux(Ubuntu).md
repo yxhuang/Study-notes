@@ -7,7 +7,7 @@ http://www.webupd8.org/2014/09/dual-boot-fix-time-differences-between.html
 
 
 ## Thunderbird
-buntu下：在当前os用户的主目录home下，找到隐藏的 .thunderbird配置文件夹，修改 profiles.ini 文件 的 “Path=rruqn7mg.default” 配置（可能你的不是该值）。建立一个指向 共用profile的软链接，修改值“rruqn7mg.default”为该软链接。 
+Ubuntu下：在当前os用户的主目录home下，找到隐藏的 .thunderbird配置文件夹，修改 profiles.ini 文件 的 “Path=rruqn7mg.default” 配置（可能你的不是该值）。建立一个指向 共用profile的软链接，修改值“rruqn7mg.default”为该软链接。 
 windows下：添加 thunderbird 启动参数 “-profile=共用的profile文件夹”
 
 * windows 下修改默认存储路径：
