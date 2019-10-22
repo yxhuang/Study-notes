@@ -1,4 +1,5 @@
-study-notes
+Study-notes
 ===========
 
-Study notes for R, STATA, Matlab, Python and Linux(Ubuntu)
+Study notes for Linux(Ubuntu), R, STATA, Matlab, Python and Git ingeneral.
+
