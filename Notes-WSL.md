@@ -30,6 +30,19 @@ bash....
 ### GUI environment setup
 Note: Windows 10 is going to release official GUI support (waiting for official release)
 
+- install xrdp:
+```
+sudo apt install net-tools
+sudo apt install xrdp -y && sudo systemctl enable xrdp
+
+```
+
+
+- Difference between Vanilla Xfce desktop and the one install through ```tasksel```
+
+https://linuxconfig.org/install-xfce-xubuntu-desktop-on-ubuntu-20-04-focal-fossa-linux
+
+
 **Reference:**
 
 https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242
