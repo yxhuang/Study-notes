@@ -15,6 +15,9 @@ bash....
 
 
 
+## Ubuntu (WSL)
+### General command
+- Check Ubuntu version: ```lsb_release -a```
 
 
 ## Anaconda
