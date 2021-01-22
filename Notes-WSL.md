@@ -8,9 +8,12 @@ bash....
 
 
 ### General commands:
-- Check the wsl related commands:
+- Check the wsl related commands: ```wsl -``` or ```wsl --help``` 
+- Check the detail info. of all distributions (including running status): ```wsl -l -v```
+- Shut down all runing distributions: ``` wsl --shutdown```
+- Terminate a specific distributions: ```wsl  -t <Distro>```
 
-```wsl -``` or ```wsl --help``` 
+
 
 
 
