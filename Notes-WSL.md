@@ -1,9 +1,15 @@
 ## WSL general setup
 
+## Notes：
+Note that all commands (especially the WSL related ones) may change according to the WSL updates.
+
+
 ### Installation
 bash....
 
 ### Uninstallation
+
+
 ### reset
 
 
