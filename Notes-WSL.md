@@ -25,6 +25,8 @@ bash....
 ### General command
 - Check Ubuntu version: ```lsb_release -a```
 
+- Update: ```sudo apt update && sudo apt -y upgrade```
+
 
 ## Anaconda
 ### Spyder GUI
