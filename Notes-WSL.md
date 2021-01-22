@@ -30,20 +30,24 @@ bash....
 ### GUI environment setup
 Note: Windows 10 is going to release official GUI support (waiting for official release)
 
-- Install xrdp:
+- Best solution: mobaxterm !!! everything is out of box ! with some good handy features as well. 
+
+https://mobaxterm.mobatek.net/
+
+- Alternative ( if you want to torture yourself...)
+-- Install xrdp:
 ```
 sudo apt install net-tools
 sudo apt install xrdp -y && sudo systemctl enable xrdp
 
 ```
-
-- Install VcXsrv: 
+-- Install VcXsrv: 
 
 https://sourceforge.net/projects/vcxsrv/
 
 
 
-- Difference between Vanilla Xfce desktop and the one install through ```tasksel```
+-- Difference between Vanilla Xfce desktop and the one install through ```tasksel```
 
 https://linuxconfig.org/install-xfce-xubuntu-desktop-on-ubuntu-20-04-focal-fossa-linux
 
