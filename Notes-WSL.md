@@ -1,8 +1,15 @@
 ## WSL general setup
+
 ### Installation
 bash....
+
 ### Uninstallation
 ### reset
+
+
+### General commands:
+- Check the wsl related commands:
+```wsl -``` or ```wsl --help``` 
 
 ## Anaconda
 ### Spyder GUI
