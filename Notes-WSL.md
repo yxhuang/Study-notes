@@ -30,8 +30,10 @@ bash....
 ### GUI environment setup
 Note: Windows 10 is going to release official GUI support (waiting for official release)
 
-Reference:
+**Reference:
+
 https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242
+
 https://medium.com/@japheth.yates/the-complete-wsl2-gui-setup-2582828f4577
 
 
