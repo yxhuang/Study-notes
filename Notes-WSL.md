@@ -103,3 +103,14 @@ https://medium.com/@japheth.yates/the-complete-wsl2-gui-setup-2582828f4577
 
 ### VScode
 https://code.visualstudio.com/docs/remote/wsl
+
+
+### Anaconda
+To see if the conda installation of Python is in your PATH variable:
+- On macOS and Linux, open the terminal and run echo $PATH.
+- On Windows, open an Anaconda Prompt and run echo %PATH%.
+
+
+To see which Python installation is currently set as the default:
+- On macOS and Linux, open the terminal and run which python.
+- On Windows, open an Anaconda Prompt and run where python.
