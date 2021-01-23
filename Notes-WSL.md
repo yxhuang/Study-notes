@@ -1,7 +1,6 @@
 ## WSL general setup
 
-## Notes：
-Note that all commands (especially the WSL related ones) may change according to the WSL updates.
+**Notes：All commands (especially the WSL related ones) may change according to the WSL updates.**
 
 ### Installation
 #### Step 1 - Enable the Windows Subsystem for Linux
