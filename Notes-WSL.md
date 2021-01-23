@@ -4,8 +4,9 @@
 
 ### Installation
 #### Step 1 - Enable the Windows Subsystem for Linux
+Open "Windows Features and tick the corresponding option, or using the Powershell command:
 ```
-% Powershell: 
+% Powershell
 dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
 ```
 
@@ -13,6 +14,7 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 For x64 systems: Version 1903 or higher, with Build 18362 or higher.
 
 #### Step 3 - Enable Virtual Machine feature
+Open "Windows Features and tick the corresponding option, or using the Powershell command:
 ```
 % Powershell: 
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
