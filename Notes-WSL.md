@@ -3,15 +3,43 @@
 ## Notes：
 Note that all commands (especially the WSL related ones) may change according to the WSL updates.
 
-
 ### Installation
-bash....
+#### Step 1 - Enable the Windows Subsystem for Linux
+```
+% Powershell: 
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+```
 
-### Uninstallation
+#### Step 2 - Check requirements for running WSL 2
+For x64 systems: Version 1903 or higher, with Build 18362 or higher.
+
+#### Step 3 - Enable Virtual Machine feature
+```
+% Powershell: 
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+```
+
+#### Step 4 - Download and install the Linux kernel update package
+WSL2 Linux kernel update package for x64 machines 
+
+(https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
+
+#### Step 5 - Set WSL 2 as your default version
+```
+% Powershell: 
+wsl --set-default-version 2
+```
+
+#### Step 6 - Install your Linux distribution of choice
+Open the Microsoft Store, select and install your favorite Linux distribution.
+
+I choose Ubuntu here.
 
 
-### reset
-
+### Uninstall and Reset （distribution）
+- Search Apps & features in the Start menu
+- On the Apps & features page in the Settings app, type Ubuntu, or the name of the Linux distribution you want to reset, in the ‘Search this list’ box.
+- Ubuntu, or the name of your Linux distribution, will appear. Click it and see "Uninstall" and then click Advanced options for "Reset".
 
 ### General commands:
 - Check the wsl related commands: ```wsl -``` or ```wsl --help``` 
