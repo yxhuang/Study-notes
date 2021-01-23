@@ -47,7 +47,7 @@ I choose Ubuntu here.
 - Shut down all runing distributions: ``` wsl --shutdown```
 - Terminate a specific distributions: ```wsl  -t <Distro>```
 
-
+--------------------------------------------------
 
 ## Ubuntu (WSL)
 ### General command
@@ -92,7 +92,7 @@ https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-ap
 https://medium.com/@japheth.yates/the-complete-wsl2-gui-setup-2582828f4577
 
 
-
+----------------------------------------------------------------------
 
 ## Anaconda
 ### Spyder GUI
