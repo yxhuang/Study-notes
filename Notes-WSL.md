@@ -106,10 +106,12 @@ https://code.visualstudio.com/docs/remote/wsl
 
 
 ### Anaconda
+#### System python and Anaconda python:
+Anaconda, by definition, servers as a sandbox that permits you to install packages into strictly defined environments. As long as you're working within one of those environments (running the activate command), your environment will see only those packages that you've installed into it.  So you can basically using the one come with Anaconda and ignore the python 3 come with the Ubuntu installtion.
+
 To see if the conda installation of Python is in your PATH variable:
 - On macOS and Linux, open the terminal and run echo $PATH.
 - On Windows, open an Anaconda Prompt and run echo %PATH%.
-
 
 To see which Python installation is currently set as the default:
 - On macOS and Linux, open the terminal and run which python.
