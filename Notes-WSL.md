@@ -53,8 +53,9 @@ I choose Ubuntu here.
 ## Ubuntu (WSL)
 ### General command
 - Check Ubuntu version: ```lsb_release -a```
-
 - Update: ```sudo apt update && sudo apt -y upgrade```
+- Check all installed package: ```sudo dpkg --list```
+- Check all install software: ```sudo apt list```
 
 ### GUI environment setup
 Note: Windows 10 is going to release official GUI support (waiting for official release)
