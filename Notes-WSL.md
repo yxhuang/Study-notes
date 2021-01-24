@@ -140,13 +140,17 @@ To see which Python installation is currently set as the default:
   anaconda-navigator
   ```
 - Spyder GUI: If you want use  Spyder come with Anaconda (which I don't anymore, I use VScode under Win10 instead). Try the following:
+
   ```sudo apt-get install qtbase5-dev``` (source: https://github.com/Microsoft/WSL/issues/1246)
+  
   ```conda update qt pyqt -c conda-forge``` (source: https://github.com/spyder-ide/spyder/issues/4426)
   
   
 
 **Reference**
+
 https://www.how2shout.com/how-to/install-anaconda-wsl-windows-10-ubuntu-linux-app.html
+
 https://docs.anaconda.com/anaconda/install/linux/
 
 
