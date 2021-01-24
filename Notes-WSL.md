@@ -129,6 +129,18 @@ wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
   source ~/.bashrc
   ```
 
+- Last to set the PATH:
+  ```
+  export PATH=/home/carls_hyx/anaconda3/bin:$PATH
+  ```
+- Then try 
+  ```
+  conda --version
+  anaconda-navigator
+  ```
+  
+  
+  
 
 **Reference**
 https://www.how2shout.com/how-to/install-anaconda-wsl-windows-10-ubuntu-linux-app.html
