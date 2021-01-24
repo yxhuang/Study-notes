@@ -56,6 +56,8 @@ I choose Ubuntu here.
 - Update: ```sudo apt update && sudo apt -y upgrade```
 - Check all installed package: ```sudo dpkg --list```
 - Check all install software: ```sudo apt list```
+- Remove files: ```rm```
+- Remove folders: 1. empty directory ```rmdir``` 2. non-empty folder ```rm -r ```
 
 ### GUI environment setup
 Note: Windows 10 is going to release official GUI support (waiting for official release)
