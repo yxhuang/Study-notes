@@ -120,10 +120,9 @@ To see which Python installation is currently set as the default:
   ```
   wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
   ```
-- Install Anaconda, note that the default install location may be displayed as "/root/anaconda3", then change it to the location below according the the Anaconda doc (https://docs.anaconda.com/anaconda/install/linux/). When prompted "Do you wish the installer to initialize Anaconda3", enter ```yes```.
-  ```
-  /home/carls_hyx/anaconda3
-  ```
+- Install Anaconda using : ```sudo bash ~/Anaconda3-2020.11-Linux-x86_64.sh```
+   note that the default install location may be displayed as "/root/anaconda3", then change it to the location ```/home/carls_hyx/anaconda3``` according the the Anaconda doc in the reference link. When prompted "Do you wish the installer to initialize Anaconda3", enter ```yes```.
+
 
 - To make sure the installation will take place effectively, simply reload the shell:
   ```
@@ -147,7 +146,10 @@ To see which Python installation is currently set as the default:
   
   
 #### Uninstall anaconda
-  check out the reference link below.
+  - check out the reference link below.
+  - 如果碰到权限问题，check 当前目录文件（夹）权限：```ls -l ~```
+  - Change the users 权限：```sudo chown -R carls_hyx:carls_hyx /home/carls_hyx/anaconda3/```
+  
 
 
 
