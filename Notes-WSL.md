@@ -146,6 +146,14 @@ To see which Python installation is currently set as the default:
   ```conda update qt pyqt -c conda-forge``` (source: https://github.com/spyder-ide/spyder/issues/4426)
   
   
+#### Uninstall anaconda
+  check out the reference link below.
+
+
+
+
+
+
 
 **Reference**
 
