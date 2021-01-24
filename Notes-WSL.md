@@ -130,7 +130,7 @@ To see which Python installation is currently set as the default:
   source ~/.bashrc
   ```
 
-- Last to set the PATH:
+- Make sure the code line below is written in the .bash_profile file.
   ```
   export PATH=/home/carls_hyx/anaconda3/bin:$PATH
   ```
@@ -152,6 +152,8 @@ To see which Python installation is currently set as the default:
 https://www.how2shout.com/how-to/install-anaconda-wsl-windows-10-ubuntu-linux-app.html
 
 https://docs.anaconda.com/anaconda/install/linux/
+
+https://docs.anaconda.com/anaconda/install/uninstall/
 
 
 
