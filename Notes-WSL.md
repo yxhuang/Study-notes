@@ -129,15 +129,15 @@ To see which Python installation is currently set as the default:
   source ~/.bashrc
   ```
 
-- Make sure the code line below is written in the .bash_profile file.
-  ```
-  export PATH=/home/carls_hyx/anaconda3/bin:$PATH
-  ```
 - Then try 
   ```
   conda --version
   anaconda-navigator
   ```
+- If the above command won't working after restart the terminal. then conda has not modified your shell scripts at all. In order to initialize after the installation process is done, first run ```source /home/carls_hyx/anaconda3/bin/activate``` and then run ```conda init```.
+  
+  
+  
 - Spyder GUI: If you want use  Spyder come with Anaconda (which I don't anymore, I use VScode under Win10 instead). Try the following:
 
   ```sudo apt-get install qtbase5-dev``` (source: https://github.com/Microsoft/WSL/issues/1246)
