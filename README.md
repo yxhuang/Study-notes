@@ -1,5 +1,5 @@
 Study-notes
 ===========
 
-Study notes for Linux(Ubuntu), R, STATA, Matlab, Python and Git ingeneral.
+Study notes for WSL、Linux(Ubuntu), R, STATA, Matlab, Python and Git in general.
 
