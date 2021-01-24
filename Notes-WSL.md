@@ -34,7 +34,7 @@ wsl --set-default-version 2
 #### Step 6 - Install your Linux distribution of choice
 Open the Microsoft Store, select and install your favorite Linux distribution.
 
-I choose Ubuntu here.
+I choose Ubuntu here. 
 
 
 ### Uninstall and Reset （distribution）
@@ -60,7 +60,7 @@ I choose Ubuntu here.
 ### GUI environment setup
 Note: Windows 10 is going to release official GUI support (waiting for official release)
 
-- Best solution: mobaxterm !!! everything is out of box ! with some good handy features as well. 
+- Best solution: mobaxterm !!! everything is out of box ! with some good handy features as well. It also features a file system browser which you can easily visit， copy, and delete folds and files in the WSL-Ubuntu system (includes text editor to directly open text files).
 
 https://mobaxterm.mobatek.net/
 
@@ -83,10 +83,6 @@ https://linuxconfig.org/install-xfce-xubuntu-desktop-on-ubuntu-20-04-focal-fossa
 
 
 
-
-
-
-
 **Reference:**
 
 https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242
@@ -94,12 +90,11 @@ https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-ap
 https://medium.com/@japheth.yates/the-complete-wsl2-gui-setup-2582828f4577
 
 
-## Coding environment
-### Spyder GUI
-- Download mobaxterm
-- ```sudo apt-get install qtbase5-dev``` (source: https://github.com/Microsoft/WSL/issues/1246)
-- ```conda update qt pyqt -c conda-forge``` (source: https://github.com/spyder-ide/spyder/issues/4426)
 
+
+
+
+## Coding environment
 
 ### VScode
 https://code.visualstudio.com/docs/remote/wsl
@@ -116,3 +111,33 @@ To see if the conda installation of Python is in your PATH variable:
 To see which Python installation is currently set as the default:
 - On macOS and Linux, open the terminal and run which python.
 - On Windows, open an Anaconda Prompt and run where python.
+
+
+#### Install anaconda
+- Go to Anacoda website and obtain the corresponding version download link (https://www.anaconda.com/products/individual)
+- Go to Linux terminal (the download link I used is the one below): 
+```
+wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+```
+- Install Anaconda, note that the default install location may be displayed as "/root/anaconda3", then change it to the location below according the the Anaconda doc (https://docs.anaconda.com/anaconda/install/linux/).
+```
+/home/carls_hyx/anaconda3
+```
+
+
+
+
+
+**Reference**
+https://www.how2shout.com/how-to/install-anaconda-wsl-windows-10-ubuntu-linux-app.html
+
+
+
+
+================================================
+**Not used (old):**
+Spyder GUI
+- ```sudo apt-get install qtbase5-dev``` (source: https://github.com/Microsoft/WSL/issues/1246)
+- ```conda update qt pyqt -c conda-forge``` (source: https://github.com/spyder-ide/spyder/issues/4426)
+
+
