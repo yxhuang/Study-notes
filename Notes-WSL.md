@@ -5,20 +5,20 @@
 ### Installation
 #### Step 1 - Enable the Windows Subsystem for Linux
 Open "Windows Features and tick the corresponding option, or using the Powershell command:
-```
-% Powershell
-dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-```
+  ```
+  % Powershell
+  dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+  ```
 
 #### Step 2 - Check requirements for running WSL 2
 For x64 systems: Version 1903 or higher, with Build 18362 or higher.
 
 #### Step 3 - Enable Virtual Machine feature
 Open "Windows Features and tick the corresponding option, or using the Powershell command:
-```
-% Powershell: 
-dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-```
+  ```
+  % Powershell: 
+  dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+  ```
 
 #### Step 4 - Download and install the Linux kernel update package
 WSL2 Linux kernel update package for x64 machines 
@@ -26,10 +26,10 @@ WSL2 Linux kernel update package for x64 machines
 (https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)
 
 #### Step 5 - Set WSL 2 as your default version
-```
-% Powershell: 
-wsl --set-default-version 2
-```
+  ```
+  % Powershell: 
+  wsl --set-default-version 2
+  ```
 
 #### Step 6 - Install your Linux distribution of choice
 Open the Microsoft Store, select and install your favorite Linux distribution.
@@ -66,11 +66,10 @@ https://mobaxterm.mobatek.net/
 
 - Alternative ( if you want to torture yourself...)
 -- Install xrdp:
-```
-sudo apt install net-tools
-sudo apt install xrdp -y && sudo systemctl enable xrdp
-
-```
+  ```
+  sudo apt install net-tools
+  sudo apt install xrdp -y && sudo systemctl enable xrdp
+  ```
 -- Install VcXsrv: 
 
 https://sourceforge.net/projects/vcxsrv/
@@ -116,13 +115,13 @@ To see which Python installation is currently set as the default:
 #### Install anaconda
 - Go to Anacoda website and obtain the corresponding version download link (https://www.anaconda.com/products/individual)
 - Go to Linux terminal (the download link I used is the one below): 
-```
-wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
-```
+  ```
+  wget https://repo.anaconda.com/archive/Anaconda3-2020.11-Linux-x86_64.sh
+  ```
 - Install Anaconda, note that the default install location may be displayed as "/root/anaconda3", then change it to the location below according the the Anaconda doc (https://docs.anaconda.com/anaconda/install/linux/). When prompted "Do you wish the installer to initialize Anaconda3", enter ```yes```.
-```
-/home/carls_hyx/anaconda3
-```
+  ```
+  /home/carls_hyx/anaconda3
+  ```
 
 - To make sure the installation will take place effectively, simply reload the shell:
   ```
