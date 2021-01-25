@@ -62,7 +62,8 @@ I choose Ubuntu here.
 ### GUI environment setup
 Note: Windows 10 is going to release official GUI support (waiting for official release)
 
-#### **Best solution:** mobaxterm !!! everything is out of box ! with some good handy features as well. It also features a file system browser which you can easily visit， copy, and delete folds and files in the WSL-Ubuntu system (includes text editor to directly open text files).
+#### **Best solution:** mobaxterm !!! 
+  Everything is out of box ! with some good handy features as well. It also features a file system browser which you can easily visit， copy, and delete folds and files in the WSL-Ubuntu system (includes text editor to directly open text files).
 
   https://mobaxterm.mobatek.net/
 
@@ -82,7 +83,7 @@ Note: Windows 10 is going to release official GUI support (waiting for official 
 
 
 
-**Reference:**
+####Reference:
 
 https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242
 
