@@ -83,9 +83,10 @@ Note: Windows 10 is going to release official GUI support (waiting for official 
   https://linuxconfig.org/install-xfce-xubuntu-desktop-on-ubuntu-20-04-focal-fossa-linux
 
 - X410 ($10，有试用）
+
   设置比VcXsrv更简单，但是用anaconda-navigator 测试时，Default setting's DPI scale is none，貌似需要自己设置一下，见下方的reference link
 
-####Reference:
+#### Reference:
 
 https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242
 
