@@ -62,20 +62,20 @@ I choose Ubuntu here.
 ### GUI environment setup
 Note: Windows 10 is going to release official GUI support (waiting for official release)
 
-- Best solution: mobaxterm !!! everything is out of box ! with some good handy features as well. It also features a file system browser which you can easily visit， copy, and delete folds and files in the WSL-Ubuntu system (includes text editor to directly open text files).
+- **Best solution:** mobaxterm !!! everything is out of box ! with some good handy features as well. It also features a file system browser which you can easily visit， copy, and delete folds and files in the WSL-Ubuntu system (includes text editor to directly open text files).
 
 https://mobaxterm.mobatek.net/
 
-- Alternative ( if you want to torture yourself...)
--- Install xrdp:
-  ```
-  sudo apt install net-tools
-  sudo apt install xrdp -y && sudo systemctl enable xrdp
-  ```
--- Install VcXsrv: 
+- **Alternative:** VcXsrv ( if you want to torture yourself...)
 
 https://sourceforge.net/projects/vcxsrv/
 
+Run the following commands or attach them at the end of the ```.bashrc```file in your home directory to avoid doing it everytime open the WSL. (Use mobaXterm browser or nano editor ```nano ~/.bashrc```)
+```
+export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2; exit;}'):0.0
+export LIBGL_ALWAYS_INDIRECT=1
+sudo /etc/init.d/dbus start &> /dev/null
+```
 
 
 -- Difference between Vanilla Xfce desktop and the one install through ```tasksel```
