@@ -67,7 +67,8 @@ Note: Windows 10 is going to release official GUI support (waiting for official 
 
   https://mobaxterm.mobatek.net/
 
-#### **Alternative:** VcXsrv ( if you want to torture yourself...)
+#### **Alternative:** 
+- VcXsrv ( if you want to torture yourself...)
 
   https://sourceforge.net/projects/vcxsrv/
 
@@ -81,13 +82,20 @@ Note: Windows 10 is going to release official GUI support (waiting for official 
 
   https://linuxconfig.org/install-xfce-xubuntu-desktop-on-ubuntu-20-04-focal-fossa-linux
 
-
+- X410 ($10，有试用）
+  设置比VcXsrv更简单，但是用anaconda-navigator 测试时，Default setting's DPI scale is none，貌似需要自己设置一下，见下方的reference link
 
 ####Reference:
 
 https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242
 
 https://medium.com/@japheth.yates/the-complete-wsl2-gui-setup-2582828f4577
+
+X410:
+
+https://x410.dev/cookbook/wsl/using-x410-with-wsl2/
+
+https://x410.dev/cookbook/running-x410-on-hidpi-screens/
 
 
 <br/><br/><br/>
